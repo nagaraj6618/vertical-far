@@ -1,1 +1,401 @@
-/* initial commit */
+*{
+  background-color: #0F0F0F;
+  margin: 0;
+  padding:0;
+  color:#FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+ 
+
+}
+.mainheader{
+
+  position: sticky;
+  top:0;
+}
+.header{
+  padding: 20px;
+  position: sticky;
+}
+.header img{
+  display: inline;
+  position: relative;
+  
+top:13px;
+left:70px;
+height: 50%;
+width: 50px;
+
+}
+.header h2{
+  display: inline;
+  position: relative;
+  left:80px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.header ul{
+  display: inline;
+  margin-left: 150px;
+}
+
+ul li{
+  display: inline;
+  
+  list-style: none;
+  padding-left: 60px;
+}
+ul a{
+  text-decoration: none;
+}
+a i{
+  position: relative;
+  left: 10px;
+  top: 3px;
+}
+.header button{
+  
+  
+  font-size: 16px;
+  border: 1px solid #F0FFA2;
+  padding: 15px;
+  cursor: pointer;
+  border-style: solid;
+  border-radius: 26px;
+}
+.btn1{
+  background-color: #0F0F0F;
+  color:#FFFFFF;
+  position: relative;
+  left:40px;
+  transition:0.3s;
+  font-weight: 600;
+}
+.btn2{
+   margin-left: 50px;
+   background-color: #F0FFA2;
+   color: #0F0F0F;
+   font-weight: 600;
+   transition:0.3s;
+}
+.btn1:active{
+  
+  background-color: #F0FFA2;
+  color: #0F0F0F;
+
+}
+.btn2:active{
+  background-color: #0F0F0F;
+  color:#FFFFFF;
+}
+/* Body content */
+
+
+.body-content{
+  margin-top: 100px;
+  margin-left: 160px;
+  width: 50%;
+  height: 430px;
+ 
+}
+.body-content .p1{
+  font-size: 50px;
+}
+
+
+.body-content h1 b{
+  display: inline;
+  position: relative;
+  left:40px;
+  bottom: 40px;
+  background-color: #F0FFA2;
+  font-size: 35px;
+  padding-top: 4px;
+  font-weight: bolder;
+  color: #0F0F0F;
+}
+.round{
+  display: inline-block;
+  position: relative;
+  top:45px;
+  left: 395px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #F0FFA2;
+  border-radius: 15px;
+  opacity: 0.5;
+}
+.round2{
+  display: inline-block;
+  position: relative;
+  top:45px;
+  left: 389px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #F0FFA2;
+  border-radius: 15px;
+  opacity: 0.5;
+}
+.round3{
+  display: inline-block;
+  position: relative;
+  top:27px;
+  left: 354px;
+  height: 18px;
+  width: 18px;
+  border: 1px solid #F0FFA2;
+  border-radius: 15px;
+  background-color: #F0FFA2;
+}
+.buttons{
+  margin-top: 50px;
+}
+.btn-1{
+  color: #0F0F0F;
+  background-color: #F0FFA2;
+  padding:12px 25px;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 35px;
+  border: none;
+}
+.btn-1 i{
+  background-color: #F0FFA2;
+  color: #0F0F0F;
+ margin-left: 3px;
+  font-weight: lighter;
+  font-style: normal;
+  rotate: 35deg;
+  opacity: 0.9;
+}
+.btn-2{
+  margin-left: 5px;
+  color: #FFFFFF;
+  background-color:#0F0F0F;
+  padding:12px 25px;
+  font-size: 15px;
+  border-radius: 35px;
+  border: 1px solid #F0FFA2;
+}
+.buttons .img1{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  top: 16px;
+  left: 40px;
+}
+.buttons .img2{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  top: 16px;
+  left: 25px;
+  border: 2px solid #0F0F0F;
+  
+}
+.buttons .img3{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  top: 16px;
+  left: 8px;
+  border: 2px solid #0F0F0F;
+  
+}
+.img4{
+  position: relative;
+  left: 750px;
+  bottom: 420px;
+  height: 450px;
+  width: 450px;
+
+}
+
+
+
+.options{
+  margin-top: 5px;
+  margin-left: 160px;
+ 
+  height: 200px;
+  width: 1520px;
+}
+.box-1{
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  background-color: #E3F2C0;
+  height: 70px;
+  width: 450px;
+  color:black;
+  border-radius: 7px;
+}
+.box-1 h2{
+  position: relative;
+  left: 20px;
+  top:14px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
+  padding: 7px 15px;
+  border-radius: 40px;
+  color: black;
+}
+.box-1 p{
+  background-color: #E3F2C0;
+  display: inline-block;
+  color: black;
+}
+.box-1 .p1{
+  font-size: 15px;
+  position: relative;
+  left:35px;
+  top:5px;
+  font-weight: bold;
+}
+.box-1 .p2{
+  position: relative;
+  left: 75px;
+  top:2px;
+  opacity: 0.8;
+}
+.box-2{
+  display: inline-block;
+  position: relative;
+  top: 52px;
+  right: 3px;
+  background-color: #F0FFA2;
+  height: 70px;
+  width: 410px;
+  color:black;
+  border-radius: 7px;
+}
+.box-2 h2{
+  position: relative;
+  left: 20px;
+  top:14px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: black;
+  padding: 8px 14px;
+  border-radius: 40px;
+  color: white;
+}
+.box-2 .p1{
+  background-color: #F0FFA2;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+  left: 35px;
+  top:2px;
+  display: inline;
+}
+.box-2 .p2{
+  background-color: #F0FFA2;
+  color: black;
+  position: relative;
+  left:77px;
+  display: inline;
+  opacity: 0.8;
+}
+.box-3{
+  display: inline-block;
+  position: relative;
+  top: 52px;
+  right: 6px;
+  background-color:white;
+  height: 70px;
+  width: 300px;
+  color:black;
+  border-radius: 7px;
+}
+.box-3 h2{
+  position: relative;
+  left: 20px;
+  top:14px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: black;
+  padding: 8px 14px;
+  border-radius: 40px;
+  color: white;
+  
+}
+.box-3 p{
+  display: inline;
+  position: relative;
+  background-color: white;
+  color: black;
+}
+.box-3 .p1{
+  left:32px;
+  top:3px;
+  font-weight: bolder;
+}
+.box-3 .p2{
+  left:73px;
+}
+
+
+/* footer */
+
+.footer{
+  height: 200px;
+  width: 100%;
+  background-color: #F6F6F6;
+}
+.form{
+  position: relative;
+  height: 60px;
+  width:190px;
+  background-color: #0F0F0F;
+  left:60px;
+  top:50px;
+  border-radius: 50px;
+}
+.form p{
+  display: inline;
+  position: relative;
+  top:22px;
+  left:20px;
+}
+.time{
+  position: relative;
+  height: 35px;
+  width: 60px;
+  background-color: white;
+  color: black;
+  left: 173px;
+  top:2px;
+  border-radius: 40px;
+}
+.time p{
+  display: inline;
+  position: relative;
+  top:10px;
+  left: 12px;
+  color: black;
+  background-color: white;
+  border-radius: 60px;
+  font-weight: bolder;
+  font-size: small;
+}
+.leaf{
+  display: inline;
+  position: relative;
+  bottom: 69px;
+  left: 250px;
+  height: 75px;
+  width: 65px;
+}
+.fot-img{
+  position: relative;
+  bottom: 52px;
+  left: 260px;
+  width:1000px;
+  height: 90px;
+  
+}
